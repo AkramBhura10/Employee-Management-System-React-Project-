@@ -3,5 +3,9 @@
   color: #fff;
 }
 body {
-  background: #111;
+  background-color: #111;
+}
+
+#TaskList::-webkit-scrollbar {
+  display: none;
 }

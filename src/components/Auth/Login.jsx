@@ -11,7 +11,7 @@ const Login = () => {
     console.log("password is",password);
 
     setemail("");
-    setpassword("");
+    setpassword(""); 
   }
 
 
