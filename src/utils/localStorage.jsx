@@ -1,10 +1,20 @@
+localStorage.clear()
+
 const employees = [
   {
     id: 1,
+    firstName: "Aarav",
     email: "employee1@example.com",
     password: "123",
+    taskCount: {
+      active: 1,
+      newTask: 2,
+      completed: 1,
+      failed: 0
+    },
     tasks: [
       {
+
         active: true,
         newTask: true,
         completed: false,
@@ -14,17 +24,9 @@ const employees = [
         date: "2026-04-10",
         category: "Reports"
       },
+      
       {
-        active: false,
-        newTask: false,
-        completed: true,
-        failed: false,
-        title: "Email Client",
-        description: "Send project update email",
-        date: "2026-04-05",
-        category: "Communication"
-      },
-      {
+
         active: false,
         newTask: false,
         completed: false,
@@ -38,10 +40,18 @@ const employees = [
   },
   {
     id: 2,
+    firstName: "Vivaan",
     email: "employee2@example.com",
     password: "123",
+    taskCount: {
+      active: 2,
+      newTask: 1,
+      completed: 0,
+      failed: 1
+    },
     tasks: [
       {
+
         active: true,
         newTask: true,
         completed: false,
@@ -52,6 +62,7 @@ const employees = [
         category: "Design"
       },
       {
+
         active: false,
         newTask: false,
         completed: true,
@@ -62,6 +73,7 @@ const employees = [
         category: "Meeting"
       },
       {
+
         active: false,
         newTask: false,
         completed: false,
@@ -75,10 +87,18 @@ const employees = [
   },
   {
     id: 3,
+    firstName: "Aditya",
     email: "employee3@example.com",
     password: "123",
+    taskCount: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
+
         active: true,
         newTask: true,
         completed: false,
@@ -89,6 +109,7 @@ const employees = [
         category: "Database"
       },
       {
+
         active: false,
         newTask: false,
         completed: true,
@@ -112,8 +133,15 @@ const employees = [
   },
   {
     id: 4,
+    firstName: "Ishaan",
     email: "employee4@example.com",
     password: "123",
+    taskCount: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         active: true,
@@ -125,16 +153,7 @@ const employees = [
         date: "2026-04-12",
         category: "Testing"
       },
-      {
-        active: false,
-        newTask: false,
-        completed: true,
-        failed: false,
-        title: "Bug Report",
-        description: "Submit bug report",
-        date: "2026-04-06",
-        category: "Testing"
-      },
+ 
       {
         active: false,
         newTask: false,
@@ -149,8 +168,15 @@ const employees = [
   },
   {
     id: 5,
+    firstName: "Krishna",
     email: "employee5@example.com",
     password: "123",
+    taskCount: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         active: true,
